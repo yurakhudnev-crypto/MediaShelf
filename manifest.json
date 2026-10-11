@@ -1,0 +1,22 @@
+{
+  "name": "MediaShelf — Моя медиатека",
+  "short_name": "MediaShelf",
+  "description": "Приложение для отслеживания потреблённого медиа-контента",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#0f0f0f",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
