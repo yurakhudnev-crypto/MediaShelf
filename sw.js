@@ -1,8 +1,9 @@
 const CACHE_NAME = 'mediashelf-v1';
+const BASE_PATH = '/MediaShelf/';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json'
+  BASE_PATH,
+  BASE_PATH + 'index.html',
+  BASE_PATH + 'manifest.json'
 ];
 
 self.addEventListener('install', (event) => {
